@@ -15,6 +15,7 @@ $(document).ready(()=>{
         // $('.box').animate({
         //     height: '300px',
         //     width: '+=300px',fontSize:"50px"},2000)
+        $('#second').text("Hello World with jQuery")
     })
     $('body').keydown((e)=>{
     console.log(e.which)
