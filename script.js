@@ -8,6 +8,10 @@ $(document).ready(()=>{
     $("#btn_hide").click(()=>{
         $('#second').hide(2000)
         $('.third').toggle(2000)
+        $('.four').fadeOut()
+        $('.five').fadeToggle()
+        $('.six').fadeTo("slow",0.5)
+        $('.seven').slideToggle("fast")
     })
     $('body').keydown((e)=>{
     console.log(e.which)
