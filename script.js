@@ -19,7 +19,10 @@ $(document).ready(()=>{
         // console.log($('#second').html("<em> Hello World with jQuery<em/>"))
     //    $('#second').html("<em> Hello World with jQuery<em/>")
         console.log($('#btn_hide').val())
+    console.log( $('#btn_hide').attr("type"))   
 
+        $('#btn_hide').attr("type","submit")
+    console.log( $('#btn_hide').attr("type"))   
         $('#second').text("Hello World with jQuery")
     })
     $('body').keydown((e)=>{
