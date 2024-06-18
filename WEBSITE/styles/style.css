@@ -67,3 +67,31 @@ main {
 .article_image {
     text-align: center;
 }
+/* animation */
+.table_content_title,#intro,
+.list_link_1,
+.list_link_2,
+.list_link_3,
+#history,
+#features,
+.article1_image,
+.article2_image{
+opacity: 0;
+}
+
+.table_content_title.animate__animated, 
+#intro.animate__animated ,
+ .list_link_1.animate__animated,
+  .list_link_2.animate__animated, 
+ .list_link_3.animate__animated 
+ ,#history.animate__animated, #features.animate__animated
+ ,  .article1_image.animate__animated, .article2_image.animate__animated
+ {
+    opacity: 1;
+    }
+    .list_link_2{
+        animation-delay: .15s;
+    }
+    .list_link_3{
+        animation-delay: .3s;        
+    }
