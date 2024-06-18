@@ -15,6 +15,11 @@ $(document).ready(()=>{
         // $('.box').animate({
         //     height: '300px',
         //     width: '+=300px',fontSize:"50px"},2000)
+        // console.log($('#second').text())
+        // console.log($('#second').html("<em> Hello World with jQuery<em/>"))
+    //    $('#second').html("<em> Hello World with jQuery<em/>")
+        console.log($('#btn_hide').val())
+
         $('#second').text("Hello World with jQuery")
     })
     $('body').keydown((e)=>{
