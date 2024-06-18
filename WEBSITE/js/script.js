@@ -16,7 +16,14 @@ $(document).ready(function () {
         $('#features').addClass('animate__animated animate__fadeInLeft')
        },offset
     );
-    
+    $('.article_text2').waypoint(function () {
+        $('.article_text2').addClass('animate__animated animate__fadeInUp')
+       },offset
+    ); 
+    $('.article_text3').waypoint(function () {
+        $('.article_text3').addClass('animate__animated animate__fadeInUp')
+       },offset
+    ); 
     $('.list_link_1').waypoint(function () {
         $('.list_link_1').addClass('animate__animated animate__fadeInRight')
        },offset

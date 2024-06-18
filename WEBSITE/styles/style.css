@@ -75,7 +75,9 @@ main {
 #history,
 #features,
 .article1_image,
-.article2_image{
+.article2_image,
+.article_text2,
+.article_text3{
 opacity: 0;
 }
 
@@ -85,7 +87,8 @@ opacity: 0;
   .list_link_2.animate__animated, 
  .list_link_3.animate__animated 
  ,#history.animate__animated, #features.animate__animated
- ,  .article1_image.animate__animated, .article2_image.animate__animated
+ ,  .article1_image.animate__animated, .article2_image.animate__animated,
+ .article_text2.animate__animated, .article_text3.animate__animated
  {
     opacity: 1;
     }
